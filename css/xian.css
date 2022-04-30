@@ -1,0 +1,179 @@
+.navbarr{
+    background-color: darkseagreen;
+}
+.cover{
+    padding: 0%;
+    margin:0;
+    position: relative;
+}
+.cover>img{
+    width: 100%;
+}
+.im{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: medium;
+    font-weight: bolder;
+}
+.name{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+.iam{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 2cm;
+    font-weight: bolder;
+}
+.myname{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 3cm;
+    font-weight: bolder;
+}
+
+.websiteintro{
+    margin: 0%;
+    padding:5% 20%;
+}
+
+
+.introduce{
+    padding: 4%;
+    margin: 3%;
+    height: 350px;
+    border-style: solid;
+    border-color: darkseagreen;
+    border-width: 5px;
+}
+@media (max-width:1329px) {
+    .introduce{
+        padding: 4%;
+        margin: 3%;
+        height: 450px;
+    }
+}
+.icons{
+    width: 30px;
+    height: auto;
+}
+.icon{
+    text-align: center;
+}
+.aboutme{
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 5%;
+}
+.aboutme>h3{
+    margin-bottom: 5%;
+}
+.carousel{
+    margin: 1% 0.5%;
+    padding:0 5%;
+}
+.edutitle{
+    text-align: center;
+    font-weight: bolder;
+    padding: 5% 12% 1% 2%;
+}
+.eduphoto{
+    padding:5% 1% 10% 20% ;
+}
+.eduintro{
+    padding: 1% 12% 5% 2%;
+}
+.eduintro>h5{
+    text-align: center;
+    color: darkgreen;
+    padding: 0 0 2% 0;
+}
+.club{
+    border-style: solid;
+    border-color: darkseagreen;
+    border-width: 5px;
+    margin: 8%;
+    text-align: center;
+}
+.clubphoto>img{
+    width: 20%;
+    margin:5% ;
+}
+.clubintro{
+    margin-left: 5% 2% 5% 0;
+    padding: 5%;
+    text-align: left;
+}
+.clubtitle>h4{
+    font-weight: bolder;
+    color: darkgreen;
+}
+.clubtitle>h5{
+    font-weight: bold;
+    color: gray;
+    padding: 2%;
+}
+.contact{
+    display: flex;
+    padding: 2%;
+    justify-content: center; 
+}
+.contactpho{
+    margin: 10px;
+    transition: all 2s 1 ease;
+
+}
+.contactpho>img{
+    width: 50px;
+    transition: all .5s ease;
+   /* transition: 屬性 轉換時間 延遲執行時間 速度; */
+
+}
+.contactpho>img:hover{
+    /* width: 100px; */
+    transform: scale(0.8) rotate(15deg);
+}
+.mail{
+    text-align: center;
+    margin-top: 10px;
+    color: darkgreen;
+}
+
+
+@media (max-width:768px) {
+    .carousel{
+        padding: 0;
+    }
+    .eduphoto{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .eduintro{
+        padding: 5%;
+    }
+    .clubintro{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width:768px) {
+    .iam{
+        font-size: 0.5cm;
+    }
+    .myname{
+        font-size: 0.75cm;
+        /* display: none;     */
+    }
+    .websiteintro{
+        padding: 10%;
+    }
+}
