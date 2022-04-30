@@ -147,6 +147,10 @@
     margin-top: 10px;
     color: darkgreen;
 }
+.rwd{
+    font-size: small;
+    color: darkgray;
+}
 
 
 @media (max-width:768px) {
